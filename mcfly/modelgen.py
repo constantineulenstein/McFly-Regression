@@ -18,6 +18,13 @@
 
 import warnings
 import numpy as np
+import sys
+sys.path.append('/content/McFly-Regression/mcfly/models')
+from cnn import CNN
+from resnet import ResNet
+from inception_time import InceptionTime
+from deep_conv_lstm import DeepConvLSTM
+
 #from mcfly.models import CNN, DeepConvLSTM, ResNet, InceptionTime
 
 
