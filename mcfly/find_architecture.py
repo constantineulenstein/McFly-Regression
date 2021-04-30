@@ -39,7 +39,7 @@ import tensorflow as tf
 from collections import defaultdict
 
 
-from . import modelgen
+#from . import modelgen
 
 
 def train_models_on_samples(X_train, y_train, X_val, y_val, models,

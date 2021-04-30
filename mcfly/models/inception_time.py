@@ -6,7 +6,7 @@ from tensorflow.keras.layers import Conv1D, Concatenate, BatchNormalization, \
 from tensorflow.keras.optimizers import Adam
 import numpy as np
 from argparse import Namespace
-from .base_hyperparameter_generator import generate_base_hyperparameter_set
+#from .base_hyperparameter_generator import generate_base_hyperparameter_set
 
 class InceptionTime:
 

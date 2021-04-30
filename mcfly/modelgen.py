@@ -18,7 +18,7 @@
 
 import warnings
 import numpy as np
-from mcfly.models import CNN, DeepConvLSTM, ResNet, InceptionTime
+#from mcfly.models import CNN, DeepConvLSTM, ResNet, InceptionTime
 
 
 def generate_models(x_shape,
