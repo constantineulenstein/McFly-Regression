@@ -37,7 +37,7 @@ from tensorflow.keras import metrics
 from tensorflow.keras.callbacks import EarlyStopping
 import tensorflow as tf
 from collections import defaultdict
-
+import sys
 sys.path.append('/content/McFly-Regression/mcfly')
 from modelgen import generate_models
 

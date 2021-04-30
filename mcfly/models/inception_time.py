@@ -6,6 +6,7 @@ from tensorflow.keras.layers import Conv1D, Concatenate, BatchNormalization, \
 from tensorflow.keras.optimizers import Adam
 import numpy as np
 from argparse import Namespace
+import sys
 sys.path.append('/content/McFly-Regression/mcfly/models')
 from base_hyperparameter_generator import generate_base_hyperparameter_set, get_learning_rate, get_regularization
 #from .base_hyperparameter_generator import generate_base_hyperparameter_set
