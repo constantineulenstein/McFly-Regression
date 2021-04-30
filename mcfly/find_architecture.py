@@ -38,8 +38,8 @@ from tensorflow.keras.callbacks import EarlyStopping
 import tensorflow as tf
 from collections import defaultdict
 
-
-#from . import modelgen
+sys.path.append('/content/McFly-Regression/mcfly')
+from modelgen import generate_models
 
 
 def train_models_on_samples(X_train, y_train, X_val, y_val, models,
