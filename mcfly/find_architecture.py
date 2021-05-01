@@ -136,7 +136,7 @@ def train_models_on_samples(X_train, y_train, X_val, y_val, models,
     # Create dataset for training data
     if y_train is not None:
         X_train_sub = X_train[:subset_size, :, :]
-        y_train_sub = y_train[:subset_size, :]
+        y_train_sub = y_train[:subset_size]
 
         data_train = tf.data.Dataset.from_tensor_slices(
             (X_train_sub, y_train_sub)).batch(batch_size)
