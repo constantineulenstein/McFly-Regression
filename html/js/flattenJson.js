@@ -3,8 +3,9 @@ var flattenModels = function(obj){
     for(var modelNr = 0; modelNr<obj.length; modelNr++) {
         model = obj[modelNr];
 
-        let val_metric = model.metrics.val_accuracy;
-        let train_metric = model.metrics.accuracy;
+        let val_metric = model.metrics.val_mean_absolute_error;
+        let train_metric = model.metrics.mean_absolute_error;
+        console.log(val_metric)
         for(var iteration=0; iteration<val_metric.length; iteration++){
             modeldict = {};
 
